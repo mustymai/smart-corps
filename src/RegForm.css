@@ -1,0 +1,18 @@
+
+div {  
+    box-sizing: border-box; 
+    width: 100%; 
+    border: 100px solid #ffd89b; 
+    float: left; 
+    align-content: center; 
+    align-items: center; 
+} 
+form {    
+    margin: 0 auto; 
+    width: 600px; 
+}
+
+div .container{
+    background: #bdc3c7;
+
+}
