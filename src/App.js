@@ -1,23 +1,23 @@
 import React from 'react';
-import SignIn from './SignIn'
-import RegForm from './RegForm';
+import NavBarComponent from './NavBar/NavBarComponent'
+import  Jumbo from './Jumbotron'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import FooterComponent from './Footer/FooterComponent'
 
 
-const App = () => {
+const App =()=> {
     return(
         <div>
-            
-                <h2>App page</h2>
-                <SignIn/>
-                <RegForm/>
-            
-        </div>
-
-
+       <NavBarComponent/>     
+      <div>
+<Jumbo/>
+     
+</div>
+<div>
+<FooterComponent/>
+</div>
+ </div>
     )
 }
 
-
-
-
-export default App;
+export default App

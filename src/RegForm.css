@@ -2,7 +2,7 @@
 div {  
     box-sizing: border-box; 
     width: 100%; 
-    border: 100px solid #ffd89b; 
+    border: 100px ; 
     float: left; 
     align-content: center; 
     align-items: center; 
