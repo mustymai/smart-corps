@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'tachyons'
-//import NavBarComponent from './NavBar/NavBarComponent'
-//import FooterComponent from './Footer/FooterComponent'
+
 
 import App from './App'
 
@@ -11,19 +10,10 @@ import App from './App'
 
 
 
-ReactDOM.render(
-  <React.StrictMode>
+ReactDOM.render(  <React.StrictMode>
     <div>
-    
-  <App/>
-        
-        </div>
-      
-    
-     
-  
-    
-    
+      <App/>
+        </div>   
   </React.StrictMode>,
   document.getElementById('root')
 );

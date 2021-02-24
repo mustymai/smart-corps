@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar,Nav, } from 'react-bootstrap';
+import { Navbar,Nav} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBar = () => {
@@ -11,6 +11,7 @@ const NavBar = () => {
       <Nav.Link href="">Register</Nav.Link>
       <Nav.Link href="#features">Our Services</Nav.Link>
       <Nav.Link href="#pricing">Contact Us</Nav.Link>
+    
     </Nav>
     
   </Navbar>

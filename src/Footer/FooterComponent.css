@@ -1,13 +1,5 @@
-.db {
-    display: block;
-}
-
 .dib {
     display: inline-block;
-}
-
-.h2 {
-    height: 2rem;
 }
 
 .link {
@@ -32,42 +24,65 @@
     outline: 1px dotted currentColor;
 }
 
-.w2 {
-    width: 2rem;
+.white-80 {
+    color: rgba(255, 255, 255, .8);
 }
 
-.near-black {
-    color: #111;
+.bg-near-black {
+    background-color: #111;
 }
 
-.hover-silver:hover {
-    color: #999;
+.hover-gold:hover {
+    color: #ffb700;
 }
 
-.hover-silver:focus {
-    color: #999;
+.hover-gold:focus {
+    color: #ffb700;
 }
 
-.pv4 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.hover-light-purple:hover {
+    color: #a463f2;
 }
 
-.ph3 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.hover-light-purple:focus {
+    color: #a463f2;
 }
 
-.mh3 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+.hover-green:hover {
+    color: #19a974;
 }
 
-.tc {
-    text-align: center;
+.hover-green:focus {
+    color: #19a974;
+}
+
+.pv5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.ph4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.mr4 {
+    margin-right: 2rem;
 }
 
 .f6 {
     font-size: .875rem;
 }
 
+@media screen and (min-width: 30em) {
+    .mr5-ns {
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .pv6-l {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+}
