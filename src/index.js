@@ -1,30 +1,18 @@
-import React, {Component} from 'react';
+import React from 'react'; 
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'tachyons'
-//import NavBarComponent from './NavBar/NavBarComponent'
-//import FooterComponent from './Footer/FooterComponent'
-
 import App from './App'
+import { BrowserRouter } from 'react-router-dom';
 
 
 
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <div>
-    
-  <App/>
-        
-        </div>
-      
-    
-     
-  
-    
-    
-  </React.StrictMode>,
+  <BrowserRouter>
+  <App/>    
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
