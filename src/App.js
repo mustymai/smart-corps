@@ -1,24 +1,27 @@
 import React from 'react';
 import NavBarComponent from './NavBar/NavBarComponent'
 //import  Jumbo from './Jumbotron'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FooterComponent from './Footer/FooterComponent'
 import './App.css'
 import Carosel from './Carosel'
 
 import Banner from './Banner'
+import RegistrationForm from './biodata.reg/Register-form';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 
 const App =()=> {
-    return(
+  return (
+      <BrowserRouter>
         <div id='page-container'>
           <div id='content-wrap'></div>
-       <NavBarComponent/>     
+       <NavBarComponent />     
+        <Route path='/register' component={RegistrationForm} />
       <div>
-      <Carosel/>     
-      </div>
-
-         
+          <Route exact path='/' component={Carosel} />     
+        </div>
          <div>
            <Banner/>
          </div>
@@ -27,6 +30,7 @@ const App =()=> {
         <FooterComponent/>
         </div>
       </div>
+      </BrowserRouter>
     )
 }
 
